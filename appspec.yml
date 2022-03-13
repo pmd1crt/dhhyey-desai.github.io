@@ -1,0 +1,15 @@
+version: 1.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/
+#hooks:
+# ApplicationStop:
+#    - location: scripts/stop_server.sh
+# ApplicationInstall: 
+#   - location: deploy/apache_install.sh
+#   - location: deploy/mysql_install.sh
+# ConigureScripts:
+#   - location: deploy/app_configure.sh
+#     timeout: 30
+#     runas: root
